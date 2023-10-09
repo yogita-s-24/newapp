@@ -5,7 +5,7 @@ import NewsArticle from "../../components/NewsArticle/NewsArticle";
 
 const Home = () => {
   const [news, setNews] = useState([]);
-  const [searchQuery, setSearchQuery] = useState("pune");
+  const [searchQuery, setSearchQuery] = useState("Pune");
 
 
   const loadNews = async () => {
