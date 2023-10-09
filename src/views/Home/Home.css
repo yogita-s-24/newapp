@@ -1,4 +1,11 @@
-.main{
-    display: flex;
-    flex-wrap: wrap;
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-search {
+  width: 450px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
 }

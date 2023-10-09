@@ -3,12 +3,13 @@
 } */
 
 .card-container{
-    width: 18rem;
-    height: 250px;
+    width: 20rem;
+    /* height: 250px; */
     
 }
 
 .main{
    display: flex;
    flex-direction: row wrap ;
+   justify-content: space-evenly;
 }

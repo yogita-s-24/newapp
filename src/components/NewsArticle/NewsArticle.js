@@ -24,6 +24,12 @@ const NewsArticle = ({
             <p>{author}</p>
             <p>{publishedAt}</p>
           </div>
+          <div>
+            <p>{description}</p>
+            <a href={url}>
+            <p>Read More</p>
+            </a>
+          </div>
         </div>
       </div>
     </div>
