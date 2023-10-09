@@ -19,8 +19,8 @@ const NewsArticle = ({
           alt="..."
         />
         <div class="card-body">
-          <h4 className="card-text">{title}</h4>
-          <div className="d-flex">
+          <h6 className="card-text">{title}</h6>
+          <div className="">
             <p>{author}</p>
             <p>{publishedAt}</p>
           </div>

@@ -8,7 +8,7 @@ const Home = () => {
 
   const loadNews = async () => {
     const response = await axios.get(
-      "https://newsapi.org/v2/everything?q=pune&from=2023-09-30&to=2023-09-30&sortBy=popularity&apiKey=926deb960338402fbdf5f96a1d09a363"
+      "https://newsapi.org/v2/everything?q=pune&from=2023-10-04&to=2023-10-09&sortBy=popularity&apiKey=8c8d186be70442138c5aaf04488a0cac"
     );
     setNews(response.data.articles);
   };
@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div>
       <h1 className="text-center fs-1">News App</h1>
-      <div className="d-flex justify-content-evenly">
+      <div className=" main">
         {news.map((newsArticle, index) => {
           const {
             author,

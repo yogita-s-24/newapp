@@ -1,8 +1,14 @@
-.new-article-Img{
+/* .new-article-Img{
     
-}
+} */
 
 .card-container{
     width: 18rem;
-    display: flex;
+    height: 250px;
+    
+}
+
+.main{
+   display: flex;
+   flex-direction: row wrap ;
 }
